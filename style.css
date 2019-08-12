@@ -37,6 +37,11 @@ div.nav-container {
     margin: 0 5px;
 }
 
+.nav-container a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
 #login {
     color: white;
     background-color: #4584F0;
@@ -60,12 +65,25 @@ div.nav-container {
     vertical-align: middle;
     opacity: 0.55;
     margin: 0 10px;
+    cursor: pointer;
+}
+
+#menu:hover {
+    opacity: 0.85;
 }
 
 /* Center elements */
 
 p.lang {
     margin: 20px;
+}
+
+.lang a {
+    text-decoration: none;
+}
+
+.lang a:hover {
+    text-decoration: underline;
 }
 
 .search-bar {
@@ -75,6 +93,11 @@ p.lang {
     height: 25px;
     margin: 25px auto;
     padding: 10px 25px;
+}
+
+.search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: transparent;
 }
 
 input[type=search] {
@@ -98,6 +121,7 @@ input[type=search] {
     float: right;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .speaker {
@@ -112,16 +136,23 @@ input[type=search] {
     float: right;
     margin-left: 10px;
     margin-right: -10px;
+    cursor: pointer;
 }
-left
+
 .button {
     background-color: #F5F5F5;
     color: #636363;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 5px;
     font-size: 14px;
     padding: 10px 15px;
     margin: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #222;
+    border: 1px solid lightgray;
 }
 
 /* Footer */
@@ -155,7 +186,7 @@ div.country {
 }
 
 .country p {
-    font-size: 16px;
+    font-size: 15px;
     color: #636363;
 }
 
