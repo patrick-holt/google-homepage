@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.search-bar {
+    border: 1px solid  rgb(185, 185, 185);
+    border-radius: 50px;
+    width: 600px;
+    height: 25px;
+    margin: 25px auto;
+    padding: 10px 25px;
+}
+
+input[type=search] {
+    border: none;
+    float: left;
+    font-size: 14px;
+    width: 80%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.keyboard {
+    background-color: transparent;
+    background-image: url("http://www.gstatic.com/inputtools/images/tia.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.speaker {
+    background-color: transparent;
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 10px;
+    margin-right: -10px;
+}
